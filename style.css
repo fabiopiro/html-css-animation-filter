@@ -125,7 +125,7 @@
 }
 
 .ex-7-img:hover {
-    filter: sepia(0.5);
+    filter: sepia(0.5) grayscale(0.5);
 }
 
 /* ese 8 */
@@ -134,7 +134,7 @@
 }
 
 .ex-8-img:hover {
-    filter: sepia(0.8);
+    filter: sepia(0.8) grayscale(0.5);
     border-radius: 20px;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .ex-9-img:hover {
-    filter: sepia(0.8);
+    filter: sepia(0.8) grayscale(0.5);
     border-radius: 20px;
     transform: scale(1.5,1.5);
 }
