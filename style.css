@@ -67,3 +67,56 @@
     width: 60px;
     height: 20px;
 }
+
+/* ese 1 */
+.ex-1-square {
+    transition: background-color ease-in 1s;
+}
+.ex-1-square:hover {
+    background-color: red;
+}
+
+/* ese 2 */
+.ex-2-square {
+    transition: width 2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* ese 3 */
+.ex-3-square {
+    transition: border-radius 0.5s ease;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* ese 4 */
+.ex-4-square {
+    transition: opacity 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* ese 5 */
+.ex-5-square {
+    transition: transform 1s;
+}
+.ex-5-square:hover {
+    transform: scale(2,2);
+}
+.ex-5-square:active {
+    transform: scale(0.5,0.5);
+}
+
+/* ese 6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* ese 7 */
