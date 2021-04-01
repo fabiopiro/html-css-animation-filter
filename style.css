@@ -148,3 +148,54 @@
     border-radius: 20px;
     transform: scale(1.5,1.5);
 }
+
+/* ese 10 */
+.ex-10-icon {
+    animation: rotation 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ese 11 */
+.ex-11-icon:hover {
+    animation: rotation-2 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation-2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(90deg);
+    }
+    60% {
+        transform: rotate(180deg);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
